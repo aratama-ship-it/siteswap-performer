@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>見比べて決める（2026-09-18）— Siteswap Performer</title>
+<style>
+  :root{
+    --surface:#fffdfa; --ink:#191b1f; --muted:#554f49; --action:#245e58;
+    --status-bg:#e1f0e9; --status-ink:#1f5c4f; --border:#8d877c; --paper:#f3efe8;
+    --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --radius:10px; --tap:44px;
+  }
+  *{box-sizing:border-box}
+  html{background:var(--paper)}
+  body{margin:0 auto;max-width:1400px;padding:var(--s5) var(--s4) 48px;color:var(--ink);background:var(--surface);
+       font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  h1{font-size:22px;line-height:1.3;margin:0 0 var(--s2)}
+  h2{font-size:18px;margin:36px 0 var(--s2);padding-top:var(--s3);border-top:1px solid var(--border)}
+  p{margin:0 0 var(--s3)}
+  .meta{color:var(--muted);font-size:12.5px;margin-bottom:var(--s4)}
+  .lead{background:var(--status-bg);color:var(--status-ink);border-radius:var(--radius);padding:var(--s3) var(--s4);margin-bottom:var(--s4)}
+  .look{border-left:4px solid var(--action);padding-left:var(--s3);margin:var(--s2) 0 var(--s3);font-weight:600}
+  .pair{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3);margin:var(--s3) 0}
+  .pane{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:#fff}
+  .pane h3{margin:0;padding:6px var(--s3);font-size:13px;background:var(--paper);border-bottom:1px solid var(--border)}
+  .pane .frame{position:relative;width:100%;overflow:hidden;background:#f7f5f1}
+  .pane iframe{position:absolute;top:0;left:0;width:1280px;height:820px;border:0;transform-origin:top left}
+  .bar{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center;margin:var(--s2) 0}
+  button{min-height:var(--tap);padding:var(--s2) var(--s3);border:1px solid var(--action);background:#fff;color:var(--action);
+         border-radius:8px;font:inherit;cursor:pointer}
+  button.primary{background:var(--action);color:#fff}
+  button[aria-pressed="true"]{background:var(--action);color:#fff}
+  .note{font-size:12.5px;color:var(--muted)}
+  .save{margin-top:var(--s4);padding:var(--s3);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px}
+  code{font-size:.92em;background:var(--paper);padding:0 4px;border-radius:4px}
+  a{color:var(--action)}
+  @media (max-width:900px){ .pair{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<h1>見比べて決める（3件）</h1>
+<p class="meta">2026-09-18 ／ 対象: 公開版 <a href="./" target="_blank" rel="noreferrer">Siteswap Performer</a>
+／ このページはローカル確認用。回答はこのブラウザにだけ保存されます（未送信）。</p>
+
+<div class="lead">
+  各項目の「▶ 同時に再生」を押すと、左右が同じ瞬間に頭から再生されます。見る点は各項目の太字の1行だけで十分です。
+  読み込みに数秒かかります（3Dを2つ同時に動かすため、fpsは単独で見るときより落ちます。動きの善し悪しの判断には影響しません）。
+</div>
+
+<h2>① 継ぎ目の空き時間 — これが一番大きい</h2>
+<p class="look">見る点: 5〜6秒あたり、441から333へ戻るところで<strong>手が瞬間移動したように飛ばないか</strong>。</p>
+<p class="note">Bは、同じ手の「投げ→次の受け」に最低0.2秒の空きを確保したものです。手首の1コマ最大移動は 177mm→87mm に減っています。腕はどちらも v1（採用済み）。</p>
+<div class="bar">
+  <button class="primary" data-play="seam">▶ 同時に再生</button>
+  <span class="note">左 A = 現状 ／ 右 B = 空き時間あり</span>
+</div>
+<div class="pair" data-pair="seam">
+  <div class="pane"><h3>A 現状（seam=legacy）</h3><div class="frame"><iframe data-src="?routine=3x8+441x3+3x8&seam=legacy" title="A 現状"></iframe></div></div>
+  <div class="pane"><h3>B 空き時間あり（seam=min-empty）</h3><div class="frame"><iframe data-src="?routine=3x8+441x3+3x8&seam=min-empty" title="B 空き時間あり"></iframe></div></div>
+</div>
+<div class="bar" data-q="seam">
+  <button data-v="B">Bの方が自然（採用）</button>
+  <button data-v="A">Aのままでよい</button>
+  <button data-v="?">違いが分からない</button>
+</div>
+
+<h2>② 531のテンポ — 5の高さが変わる</h2>
+<p class="look">見る点: 531の「5」の投げが<strong>高すぎないか／低すぎないか</strong>。</p>
+<p class="note">A は従来の拍（5が約3m）、B は実測寄りの拍0.30秒（5が約1.1m）。本物の531に近い方を選んでください。</p>
+<div class="bar">
+  <button class="primary" data-play="tempo">▶ 同時に再生</button>
+  <span class="note">左 A = 従来の拍 ／ 右 B = 0.30秒の拍</span>
+</div>
+<div class="pair" data-pair="tempo">
+  <div class="pane"><h3>A 従来（5が約3m）</h3><div class="frame"><iframe data-src="?routine=3x4+531x2+3x4" title="A 従来の拍"></iframe></div></div>
+  <div class="pane"><h3>B 拍0.30秒（5が約1.1m）</h3><div class="frame"><iframe data-src="?routine=3x4+531x2@0.30+3x4" title="B 速い拍"></iframe></div></div>
+</div>
+<div class="bar" data-q="tempo">
+  <button data-v="B">Bが近い（0.30秒を既定に）</button>
+  <button data-v="A">Aが近い（従来のまま）</button>
+  <button data-v="mid">中間がよい</button>
+</div>
+
+<h2>③ VRMアバター — 人間らしい見た目</h2>
+<p class="look">見る点: <strong>脚が交差していないか</strong>、肘が外へ張り出していないか。</p>
+<p class="note">
+  下の画面を開いたあと、左パネルの <code>avatar</code> を「VRM（Sendagaya Shibu・CC0）」に切り替えてください（アバターはURLで指定できないため）。
+  これは<strong>検証用の借り物モデル</strong>（CC0）で、見た目そのものの採否ではなく「破綻していないか」だけを見てください。本人の自作モデルが入れば差し替わります。
+</p>
+<div class="bar">
+  <button class="primary" data-play="vrm">▶ 読み込む</button>
+</div>
+<div class="pair" data-pair="vrm" style="grid-template-columns:1fr">
+  <div class="pane"><h3>既定ルーティン（avatar を VRM に切り替えて確認）</h3><div class="frame"><iframe data-src="" title="VRM確認"></iframe></div></div>
+</div>
+<div class="bar" data-q="vrm">
+  <button data-v="ok">破綻していない</button>
+  <button data-v="ng">まだおかしい</button>
+  <button data-v="later">あとで見る</button>
+</div>
+
+<div class="save" id="saveState">まだ回答はありません。</div>
+
+<script>
+(function(){
+  var BASE = './';
+  var KEY = 'siteswap-compare-2026-09-18';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+
+  document.querySelectorAll('button[data-play]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var group = btn.getAttribute('data-play');
+      var frames = document.querySelectorAll('[data-pair="' + group + '"] iframe');
+      frames.forEach(function(f){ f.src = 'about:blank'; });
+      // 次のフレームで同時に読み込ませる（両方を同じ瞬間に頭から開始する）
+      requestAnimationFrame(function(){
+        frames.forEach(function(f){ f.src = BASE + (f.getAttribute('data-src') || ''); });
+      });
+    });
+  });
+
+  function fitFrames(){
+    document.querySelectorAll('.pane .frame').forEach(function(box){
+      var scale = box.clientWidth / 1280;
+      var f = box.querySelector('iframe');
+      f.style.transform = 'scale(' + scale + ')';
+      box.style.height = Math.round(820 * scale) + 'px';
+    });
+  }
+  window.addEventListener('resize', fitFrames);
+  fitFrames();
+
+  function render(){
+    document.querySelectorAll('[data-q]').forEach(function(bar){
+      var q = bar.getAttribute('data-q');
+      bar.querySelectorAll('button[data-v]').forEach(function(b){
+        b.setAttribute('aria-pressed', String(state[q] === b.getAttribute('data-v')));
+      });
+    });
+    var keys = Object.keys(state);
+    var el = document.getElementById('saveState');
+    if (!keys.length) { el.textContent = 'まだ回答はありません。'; return; }
+    var parts = keys.sort().map(function(q){
+      var bar = document.querySelector('[data-q="' + q + '"]');
+      var b = bar && bar.querySelector('button[data-v="' + state[q] + '"]');
+      return q + ': ' + (b ? b.textContent : state[q]);
+    });
+    el.textContent = '回答（このブラウザにだけ保存・未送信）: ' + parts.join(' ／ ') + ' — この1行をそのままClaudeに貼ってください。';
+  }
+
+  document.querySelectorAll('[data-q] button[data-v]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var q = b.closest('[data-q]').getAttribute('data-q');
+      state[q] = b.getAttribute('data-v');
+      localStorage.setItem(KEY, JSON.stringify(state));
+      render();
+    });
+  });
+  render();
+})();
+</script>
+</body>
+</html>
