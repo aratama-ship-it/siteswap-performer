@@ -1,0 +1,655 @@
+{
+  "format": "sp23-elbow-direction-profile",
+  "version": "1.0",
+  "source": {
+    "files": [
+      {
+        "path": "data/calibration/sp23-a1-front-arm-2026-09-08/front-arm-body-anchor-calibration-approved.json",
+        "sha256": "718a7e12a3cc65fc71b9cfcaa7d75d4abc4ce2727561fc7fa777537376dcecbe"
+      },
+      {
+        "path": "data/calibration/sp23-a1-front-arm-2026-09-08/front-arm-body-anchor-adjacent-cycle-operator-accepted.json",
+        "sha256": "a9fe7818170cbbaf63aa19a44155751681d7c5b436ffdfab092220d0b235a0ec"
+      }
+    ],
+    "convention": "screen_left_is_anatomical_right",
+    "operatorApproved": [
+      true,
+      true
+    ]
+  },
+  "handCycles": {
+    "R": [
+      {
+        "cycle": "996-1016-1046",
+        "catchPhase": 0.4,
+        "sampleCount": 24,
+        "samples": [
+          {
+            "phase": 0,
+            "ux": 0.349368437,
+            "uy": -0.93698543,
+            "projectedUpperOverMax": 0.85456025,
+            "sourceFrameIndex": 996
+          },
+          {
+            "phase": 0.02,
+            "ux": 0.372045132,
+            "uy": -0.928214641,
+            "projectedUpperOverMax": 0.847896583,
+            "sourceFrameIndex": 997
+          },
+          {
+            "phase": 0.04,
+            "ux": 0.391419559,
+            "uy": -0.920212328,
+            "projectedUpperOverMax": 0.855270026,
+            "sourceFrameIndex": 998
+          },
+          {
+            "phase": 0.06,
+            "ux": 0.39561176,
+            "uy": -0.918417844,
+            "projectedUpperOverMax": 0.860445999,
+            "sourceFrameIndex": 999
+          },
+          {
+            "phase": 0.12,
+            "ux": 0.409955235,
+            "uy": -0.912105644,
+            "projectedUpperOverMax": 0.899045115,
+            "sourceFrameIndex": 1002
+          },
+          {
+            "phase": 0.18,
+            "ux": 0.356497239,
+            "uy": -0.934296376,
+            "projectedUpperOverMax": 1,
+            "sourceFrameIndex": 1005
+          },
+          {
+            "phase": 0.24,
+            "ux": 0.388656063,
+            "uy": -0.921382909,
+            "projectedUpperOverMax": 0.96073802,
+            "sourceFrameIndex": 1008
+          },
+          {
+            "phase": 0.3,
+            "ux": 0.425345792,
+            "uy": -0.905030915,
+            "projectedUpperOverMax": 0.858946583,
+            "sourceFrameIndex": 1011
+          },
+          {
+            "phase": 0.36,
+            "ux": 0.499809336,
+            "uy": -0.866135456,
+            "projectedUpperOverMax": 0.801820994,
+            "sourceFrameIndex": 1014
+          },
+          {
+            "phase": 0.38,
+            "ux": 0.471670206,
+            "uy": -0.881775038,
+            "projectedUpperOverMax": 0.81041526,
+            "sourceFrameIndex": 1015
+          },
+          {
+            "phase": 0.4,
+            "ux": 0.479205512,
+            "uy": -0.877702727,
+            "projectedUpperOverMax": 0.79767182,
+            "sourceFrameIndex": 1016
+          },
+          {
+            "phase": 0.42,
+            "ux": 0.421432437,
+            "uy": -0.906859802,
+            "projectedUpperOverMax": 0.809827942,
+            "sourceFrameIndex": 1017
+          },
+          {
+            "phase": 0.44,
+            "ux": 0.449081676,
+            "uy": -0.893490709,
+            "projectedUpperOverMax": 0.792223324,
+            "sourceFrameIndex": 1018
+          },
+          {
+            "phase": 0.48,
+            "ux": 0.413033817,
+            "uy": -0.910715689,
+            "projectedUpperOverMax": 0.859416904,
+            "sourceFrameIndex": 1020
+          },
+          {
+            "phase": 0.54,
+            "ux": 0.42733882,
+            "uy": -0.904091551,
+            "projectedUpperOverMax": 0.879421297,
+            "sourceFrameIndex": 1023
+          },
+          {
+            "phase": 0.6,
+            "ux": 0.387077273,
+            "uy": -0.922047279,
+            "projectedUpperOverMax": 0.881496572,
+            "sourceFrameIndex": 1026
+          },
+          {
+            "phase": 0.66,
+            "ux": 0.351702965,
+            "uy": -0.936111652,
+            "projectedUpperOverMax": 0.912954872,
+            "sourceFrameIndex": 1029
+          },
+          {
+            "phase": 0.72,
+            "ux": 0.343920352,
+            "uy": -0.938998824,
+            "projectedUpperOverMax": 0.91957492,
+            "sourceFrameIndex": 1032
+          },
+          {
+            "phase": 0.78,
+            "ux": 0.324780516,
+            "uy": -0.945789414,
+            "projectedUpperOverMax": 0.901911368,
+            "sourceFrameIndex": 1035
+          },
+          {
+            "phase": 0.84,
+            "ux": 0.331997644,
+            "uy": -0.943280215,
+            "projectedUpperOverMax": 0.870185598,
+            "sourceFrameIndex": 1038
+          },
+          {
+            "phase": 0.9,
+            "ux": 0.336628502,
+            "uy": -0.941637537,
+            "projectedUpperOverMax": 0.87255824,
+            "sourceFrameIndex": 1041
+          },
+          {
+            "phase": 0.96,
+            "ux": 0.374554121,
+            "uy": -0.927205053,
+            "projectedUpperOverMax": 0.876593061,
+            "sourceFrameIndex": 1044
+          },
+          {
+            "phase": 0.98,
+            "ux": 0.39114064,
+            "uy": -0.920330918,
+            "projectedUpperOverMax": 0.874396544,
+            "sourceFrameIndex": 1045
+          },
+          {
+            "phase": 1,
+            "ux": 0.410172174,
+            "uy": -0.912008107,
+            "projectedUpperOverMax": 0.869140477,
+            "sourceFrameIndex": 1046
+          }
+        ]
+      },
+      {
+        "cycle": "1046-1065-1096",
+        "catchPhase": 0.38,
+        "sampleCount": 24,
+        "samples": [
+          {
+            "phase": 0,
+            "ux": 0.410172174,
+            "uy": -0.912008107,
+            "projectedUpperOverMax": 0.932360633,
+            "sourceFrameIndex": 1046
+          },
+          {
+            "phase": 0.02,
+            "ux": 0.442798548,
+            "uy": -0.896621127,
+            "projectedUpperOverMax": 0.939695714,
+            "sourceFrameIndex": 1047
+          },
+          {
+            "phase": 0.04,
+            "ux": 0.453856545,
+            "uy": -0.891074765,
+            "projectedUpperOverMax": 0.933919161,
+            "sourceFrameIndex": 1048
+          },
+          {
+            "phase": 0.06,
+            "ux": 0.438351056,
+            "uy": -0.898803845,
+            "projectedUpperOverMax": 0.937413692,
+            "sourceFrameIndex": 1049
+          },
+          {
+            "phase": 0.12,
+            "ux": 0.379517972,
+            "uy": -0.925184365,
+            "projectedUpperOverMax": 0.987196892,
+            "sourceFrameIndex": 1052
+          },
+          {
+            "phase": 0.18,
+            "ux": 0.39537743,
+            "uy": -0.918518746,
+            "projectedUpperOverMax": 1,
+            "sourceFrameIndex": 1055
+          },
+          {
+            "phase": 0.24,
+            "ux": 0.392227994,
+            "uy": -0.919868034,
+            "projectedUpperOverMax": 0.924393961,
+            "sourceFrameIndex": 1058
+          },
+          {
+            "phase": 0.3,
+            "ux": 0.426588816,
+            "uy": -0.904445676,
+            "projectedUpperOverMax": 0.892432793,
+            "sourceFrameIndex": 1061
+          },
+          {
+            "phase": 0.34,
+            "ux": 0.461870945,
+            "uy": -0.88694714,
+            "projectedUpperOverMax": 0.891546773,
+            "sourceFrameIndex": 1063
+          },
+          {
+            "phase": 0.36,
+            "ux": 0.456177822,
+            "uy": -0.889888642,
+            "projectedUpperOverMax": 0.883749355,
+            "sourceFrameIndex": 1064
+          },
+          {
+            "phase": 0.38,
+            "ux": 0.47053746,
+            "uy": -0.882380019,
+            "projectedUpperOverMax": 0.882464551,
+            "sourceFrameIndex": 1065
+          },
+          {
+            "phase": 0.4,
+            "ux": 0.479400422,
+            "uy": -0.877596283,
+            "projectedUpperOverMax": 0.88235645,
+            "sourceFrameIndex": 1066
+          },
+          {
+            "phase": 0.42,
+            "ux": 0.480082258,
+            "uy": -0.877223475,
+            "projectedUpperOverMax": 0.884699624,
+            "sourceFrameIndex": 1067
+          },
+          {
+            "phase": 0.48,
+            "ux": 0.474509865,
+            "uy": -0.880250185,
+            "projectedUpperOverMax": 0.878715488,
+            "sourceFrameIndex": 1070
+          },
+          {
+            "phase": 0.54,
+            "ux": 0.458786013,
+            "uy": -0.888546788,
+            "projectedUpperOverMax": 0.922002944,
+            "sourceFrameIndex": 1073
+          },
+          {
+            "phase": 0.6,
+            "ux": 0.427739389,
+            "uy": -0.903902105,
+            "projectedUpperOverMax": 0.962687939,
+            "sourceFrameIndex": 1076
+          },
+          {
+            "phase": 0.66,
+            "ux": 0.361321068,
+            "uy": -0.932441465,
+            "projectedUpperOverMax": 0.962848942,
+            "sourceFrameIndex": 1079
+          },
+          {
+            "phase": 0.72,
+            "ux": 0.319862361,
+            "uy": -0.94746402,
+            "projectedUpperOverMax": 0.925715163,
+            "sourceFrameIndex": 1082
+          },
+          {
+            "phase": 0.78,
+            "ux": 0.296953739,
+            "uy": -0.954891867,
+            "projectedUpperOverMax": 0.930266918,
+            "sourceFrameIndex": 1085
+          },
+          {
+            "phase": 0.84,
+            "ux": 0.302182978,
+            "uy": -0.95324994,
+            "projectedUpperOverMax": 0.942736538,
+            "sourceFrameIndex": 1088
+          },
+          {
+            "phase": 0.9,
+            "ux": 0.307469778,
+            "uy": -0.951557847,
+            "projectedUpperOverMax": 0.91810365,
+            "sourceFrameIndex": 1091
+          },
+          {
+            "phase": 0.96,
+            "ux": 0.317961573,
+            "uy": -0.948103601,
+            "projectedUpperOverMax": 0.895953972,
+            "sourceFrameIndex": 1094
+          },
+          {
+            "phase": 0.98,
+            "ux": 0.320239882,
+            "uy": -0.947336486,
+            "projectedUpperOverMax": 0.903058296,
+            "sourceFrameIndex": 1095
+          },
+          {
+            "phase": 1,
+            "ux": 0.347917358,
+            "uy": -0.937525206,
+            "projectedUpperOverMax": 0.885805792,
+            "sourceFrameIndex": 1096
+          }
+        ]
+      }
+    ],
+    "L": "mirrored_from_R"
+  },
+  "merged": {
+    "R": {
+      "catchPhase": 0.39,
+      "samples": [
+        {
+          "phase": 0,
+          "ux": 0.393895206,
+          "uy": -0.919155355,
+          "projectedUpperOverMax": 0.893628295,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.05,
+          "ux": 0.419994577,
+          "uy": -0.907526614,
+          "projectedUpperOverMax": 0.89676222,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.1,
+          "ux": 0.394790767,
+          "uy": -0.918771055,
+          "projectedUpperOverMax": 0.943121003,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.2,
+          "ux": 0.376020097,
+          "uy": -0.926611508,
+          "projectedUpperOverMax": 1,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.25,
+          "ux": 0.390442763,
+          "uy": -0.920627204,
+          "projectedUpperOverMax": 0.942565991,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.3,
+          "ux": 0.425967405,
+          "uy": -0.904738509,
+          "projectedUpperOverMax": 0.875689688,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.35,
+          "ux": 0.472468406,
+          "uy": -0.881347608,
+          "projectedUpperOverMax": 0.846883095,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.4,
+          "ux": 0.462811954,
+          "uy": -0.886456483,
+          "projectedUpperOverMax": 0.843080191,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.45,
+          "ux": 0.447609154,
+          "uy": -0.894229302,
+          "projectedUpperOverMax": 0.845446617,
+          "sampleCount": 3
+        },
+        {
+          "phase": 0.5,
+          "ux": 0.474509865,
+          "uy": -0.880250185,
+          "projectedUpperOverMax": 0.878715488,
+          "sampleCount": 1
+        },
+        {
+          "phase": 0.55,
+          "ux": 0.443130584,
+          "uy": -0.896457074,
+          "projectedUpperOverMax": 0.900712121,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.6,
+          "ux": 0.407509337,
+          "uy": -0.91320104,
+          "projectedUpperOverMax": 0.922092255,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.65,
+          "ux": 0.356516739,
+          "uy": -0.934288935,
+          "projectedUpperOverMax": 0.937901907,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.7,
+          "ux": 0.331918345,
+          "uy": -0.943308122,
+          "projectedUpperOverMax": 0.922645042,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.8,
+          "ux": 0.310900442,
+          "uy": -0.950442484,
+          "projectedUpperOverMax": 0.916089143,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.85,
+          "ux": 0.317129491,
+          "uy": -0.948382247,
+          "projectedUpperOverMax": 0.906461068,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.9,
+          "ux": 0.322087336,
+          "uy": -0.94670996,
+          "projectedUpperOverMax": 0.895330945,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.95,
+          "ux": 0.346415479,
+          "uy": -0.938081188,
+          "projectedUpperOverMax": 0.886273516,
+          "sampleCount": 2
+        },
+        {
+          "phase": 1,
+          "ux": 0.367632725,
+          "uy": -0.929971064,
+          "projectedUpperOverMax": 0.883100277,
+          "sampleCount": 4
+        }
+      ]
+    },
+    "L": {
+      "catchPhase": 0.39,
+      "mirroredFrom": "R",
+      "samples": [
+        {
+          "phase": 0,
+          "ux": -0.393895206,
+          "uy": -0.919155355,
+          "projectedUpperOverMax": 0.893628295,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.05,
+          "ux": -0.419994577,
+          "uy": -0.907526614,
+          "projectedUpperOverMax": 0.89676222,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.1,
+          "ux": -0.394790767,
+          "uy": -0.918771055,
+          "projectedUpperOverMax": 0.943121003,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.2,
+          "ux": -0.376020097,
+          "uy": -0.926611508,
+          "projectedUpperOverMax": 1,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.25,
+          "ux": -0.390442763,
+          "uy": -0.920627204,
+          "projectedUpperOverMax": 0.942565991,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.3,
+          "ux": -0.425967405,
+          "uy": -0.904738509,
+          "projectedUpperOverMax": 0.875689688,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.35,
+          "ux": -0.472468406,
+          "uy": -0.881347608,
+          "projectedUpperOverMax": 0.846883095,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.4,
+          "ux": -0.462811954,
+          "uy": -0.886456483,
+          "projectedUpperOverMax": 0.843080191,
+          "sampleCount": 4
+        },
+        {
+          "phase": 0.45,
+          "ux": -0.447609154,
+          "uy": -0.894229302,
+          "projectedUpperOverMax": 0.845446617,
+          "sampleCount": 3
+        },
+        {
+          "phase": 0.5,
+          "ux": -0.474509865,
+          "uy": -0.880250185,
+          "projectedUpperOverMax": 0.878715488,
+          "sampleCount": 1
+        },
+        {
+          "phase": 0.55,
+          "ux": -0.443130584,
+          "uy": -0.896457074,
+          "projectedUpperOverMax": 0.900712121,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.6,
+          "ux": -0.407509337,
+          "uy": -0.91320104,
+          "projectedUpperOverMax": 0.922092255,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.65,
+          "ux": -0.356516739,
+          "uy": -0.934288935,
+          "projectedUpperOverMax": 0.937901907,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.7,
+          "ux": -0.331918345,
+          "uy": -0.943308122,
+          "projectedUpperOverMax": 0.922645042,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.8,
+          "ux": -0.310900442,
+          "uy": -0.950442484,
+          "projectedUpperOverMax": 0.916089143,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.85,
+          "ux": -0.317129491,
+          "uy": -0.948382247,
+          "projectedUpperOverMax": 0.906461068,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.9,
+          "ux": -0.322087336,
+          "uy": -0.94670996,
+          "projectedUpperOverMax": 0.895330945,
+          "sampleCount": 2
+        },
+        {
+          "phase": 0.95,
+          "ux": -0.346415479,
+          "uy": -0.938081188,
+          "projectedUpperOverMax": 0.886273516,
+          "sampleCount": 2
+        },
+        {
+          "phase": 1,
+          "ux": -0.367632725,
+          "uy": -0.929971064,
+          "projectedUpperOverMax": 0.883100277,
+          "sampleCount": 4
+        }
+      ]
+    }
+  }
+}
