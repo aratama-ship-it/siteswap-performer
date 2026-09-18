@@ -81,11 +81,11 @@
   <button data-v="mid">中間がよい</button>
 </div>
 
-<h2>③ VRMアバター — 人間らしい見た目</h2>
-<p class="look">見る点: <strong>脚が交差していないか</strong>、肘が外へ張り出していないか。</p>
+<h2>③ VRMアバター — 判定済み: 破綻（2026-09-18）</h2>
+<p class="look">本人判定「完全に破綻」。既定の選択肢から外しました。もう見る必要はありません。</p>
 <p class="note">
-  下の画面を開いたあと、左パネルの <code>avatar</code> を「VRM（Sendagaya Shibu・CC0）」に切り替えてください（アバターはURLで指定できないため）。
-  これは<strong>検証用の借り物モデル</strong>（CC0）で、見た目そのものの採否ではなく「破綻していないか」だけを見てください。本人の自作モデルが入れば差し替わります。
+  原因は借り物モデルの比率（腕÷身長 0.268。実在の成人は約0.34）で、腕に合わせると脚が311mm余ります。
+  実装は残してあり <code>?avatar=vrm</code> を付けたときだけ選択肢に出ます。<strong>本人の自作モデル（腕÷身長 0.30以上）が届いた時点で再検証します。</strong>
 </p>
 <div class="bar">
   <button class="primary" data-play="vrm">▶ 読み込む</button>
