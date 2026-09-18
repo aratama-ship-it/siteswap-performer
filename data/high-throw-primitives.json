@@ -1,0 +1,31 @@
+{
+  "format": "sp23-high-throw-primitives",
+  "version": "1.0",
+  "generatedFrom": {
+    "recordIds": [
+      "sp23-a8-five-ball-cascade-front-2026-08-31"
+    ],
+    "extractedAt": "2026-09-01T04:26:33.595Z",
+    "coordinateFrame": "canonical_+X_anatomical_right"
+  },
+  "fiveBallCascade": {
+    "beatSec": 0.2333,
+    "flightSec": 0.9334,
+    "apexRise": 1.099613,
+    "apexRiseStd": 0.056338,
+    "release": {
+      "left": {
+        "x": -0.120126,
+        "y": 0.019658
+      },
+      "right": {
+        "x": 0.16537,
+        "y": -0.01426
+      }
+    },
+    "catch": null,
+    "notes": [
+      "catch hand labels absent; catch endpoints not extracted"
+    ]
+  }
+}
